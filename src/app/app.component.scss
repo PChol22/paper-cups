@@ -39,6 +39,7 @@
   background-color: #FFFFFF;
   box-shadow: 2px 2px 2px #cccccc;
   transform: translate(228px, 83px);
+  cursor: pointer;
 
   img {
     position: relative;
@@ -64,6 +65,7 @@
   height: 52px;
   border-radius: 52px;
   background-color: #00000044;
+  cursor: pointer;
 
   &.btn-next img {
     position: relative;
@@ -79,5 +81,74 @@
 
   &:hover {
     background-color: #00000077;
+  }
+}
+
+.detail {
+  margin-left: 35px;
+  margin-top: 45px;
+}
+
+.detail-select {
+  display: flex;
+}
+
+.detail-title {
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  h3 {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 15px;
+  }
+}
+
+.detail-content {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  width: 262px;
+  margin-top: 30px;
+}
+
+.detail-select-btn {
+  width: 28px;
+  height: 28px;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 28px;
+
+  &.red {
+    background-color: #ED0202;
+  }
+
+  &.purple {
+    background-color: #AD19C4;
+  }
+}
+
+.detail-btn {
+  background-color: #FFFFFF;
+  color: #ED0202;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: sans-serif;
+  padding: 16px 31px 16px 31px;
+  border: 0;
+  border-radius: 3px;
+  margin-top: 25px;
+  box-shadow: 3px 3px 3px #00000022;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 3px 3px 3px #00000055;
   }
 }
