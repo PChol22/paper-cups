@@ -1,0 +1,83 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.colored {
+  position: relative;
+  background-image: url("../assets/images/half-mask.png"), linear-gradient(#ED0202, #ED0202);
+  height: 50%;
+  top: 50%;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.product-background {
+  position: absolute;
+  width: 208px;
+  height: 155px;
+  z-index: -1;
+  background-image: url("../assets/images/repeat grid 1.png");
+}
+
+.product-main {
+  margin-left: 50px;
+}
+
+.plus-btn {
+  position: absolute;
+  height: 65px;
+  width: 65px;
+  border-radius: 65px;
+  z-index: 1;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 2px #cccccc;
+  transform: translate(228px, 83px);
+
+  img {
+    position: relative;
+    top: 25px;
+    left: 25px;
+  }
+
+  &:hover {
+    box-shadow: 3px 3px 3px #aaaaaa;
+  }
+}
+
+.action {
+  display: flex;
+  margin-left: 30px;
+  transform: translateY(36px);
+  width: 109px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 52px;
+  background-color: #00000044;
+
+  &.btn-next img {
+    position: relative;
+    left: 21px;
+    top: 19px;
+  }
+
+  &.btn-previous img {
+    position: relative;
+    left: 19px;
+    top: 19px;
+  }
+
+  &:hover {
+    background-color: #00000077;
+  }
+}
